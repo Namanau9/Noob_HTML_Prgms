@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SPEAKERS</title>
+        <style>
+            header {border: solid 5px black ;text-align: center;background-color: black ; color: white;font-weight: bolder;}
+nav {background-color:white ;}
+h3{font-size: 15px;}
+h1{font-size: 29px;}
+#section{border: solid 1px black }
+
+.image{margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    width: 30%;}
+
+.heading{font-size: 21px ;}
+
+div{text-align: center;
+    margin: 3px;
+    display: inline-block;}
+
+    footer{background-color: black;color: white;
+           text-align: center;
+           padding: 10px;
+           border: solid 5px black;
+           font-weight: bolder;
+                }
+        </style>
+    </head>
+   
+        <header >
+            <h1>TECHCON</h1>
+            <h3>DATE : 24/12/2025 | TIME : 11 AM IST</h3>
+            <nav>
+                <a href="#home">HOME |</a>
+                <a href="#aboutus">ABOUT US |</a>
+                <a href="#speakers">SPEAKERS |</a>
+                <a href="#agenda">AGENDA</a>
+            </nav>
+            
+        </header>
+<main>
+    <body>
+
+<section id="aboutus">
+    <h1>ABOUT US :</h1>
+<p>Welcome to TECHCON, the flagship retail-tech hybrid event hosted by  Global Tech. This year, we will explore the exciting world of technology and its transformative impact on the future of retail. With a focus on elevating customer experiences, the event will bring together leading technologists, industry experts and thought leaders to share their vision and success stories of creating innovative shopping journeys.</p>
+</section>
+<section id="speakers">
+<h1>SPEAKERS :</h1>
+<div>
+
+<div>
+     
+       <img src="https://walmart.converge.tech/content/dam/gts-spark/home/me@/converge-2024/speakers/Vineeta.png" class="image" alt="">
+       <h3 class="heading">Vineeta Singh</h3>
+       <h4>Co-founder and CEO<br>SUGAR Cosmetics<br><h4>
+</div>
+
+<div>
+        <img src="https://walmart.converge.tech/content/dam/gts-spark/home/me@/converge-2024/speakers/Mustafa.png" class="image" alt="">
+        <h3 class="heading">Musthafa PC </h3>
+        <h4>CEO and Co-founder<br>iD Fresh Food<br><h4>
+</div>
+
+<div>
+    <img src="https://walmart.converge.tech/content/dam/gts-spark/home/me@/converge-2024/speakers/Shikar-Dhawan.png" class="image" alt="">
+    <h3 class="heading">Shikhar Dhawan
+        </h3>
+    <h4>Indian former cricketer <br><h4>
+</div>
+</div>
+</a>
+</section>
+    </body>
+</main>
+<footer>
+    <p>&copy; 2024 TECHCON</p>
+</footer>
+</html>

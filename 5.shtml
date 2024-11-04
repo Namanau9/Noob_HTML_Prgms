@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Registration Form</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #ffecec;
+            }
+            h1 {
+                text-align: center;
+                color: #333;
+            }
+            #form {
+                max-width: 700px;
+                margin: auto auto;
+                background-color: #66030333;
+                border-radius: 10px;
+                text-align: justify;
+                }
+            label{
+                display: inline-block;
+                width: 100px;
+                margin: 50;
+                font-weight: bold;
+                color: #333;
+            }
+        </style>
+
+    </head>
+    <body>
+    <div id="form">
+    <h1>Student Registration Form</h1>
+        <form >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="USN">USN: </label>
+            <input type="text" id="USN" name="USN" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address here" required></textarea><br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <label for="subjects">Subjects:<br>       </label>
+            <input type="checkbox" id="subjects" name="Web" required>WEB TECHNOLOGY
+        
+            <input type="checkbox" id="JAVA" name="JAVA" required>JAVA
+            
+            <input type="checkbox" id="PYTHON" name="PYTHON" required>PYTHON<br><br>
+ 
+
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" name="photo" accept="image/*" required><br><br>
+            <label for="payment">Payment:</label>
+            <select name="payment" id="payment" required>
+                <option value="">Select payment method</option>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="bank-transfer">Bank Transfer</option>
+            </select><br><br>
+
+            <input style="border-radius: 50px;  margin-left:300px;" type="submit" value="Submit">
+            <input style="border-radius: 50px;" type="reset" value="Reset">
+        </form>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS HOVER</title>
+    <style>
+        body {
+            background-color: rgb(238, 253, 198);
+        }
+        .container {
+            margin: 100px;
+            padding: 50px;
+            background-color: aliceblue;
+        }
+        h1 {
+            text-align: center;
+        }
+        .paragraph {
+            text-align: justify;
+            word-spacing: 4px;
+            font-size: large;
+            padding: auto;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            transition: transform 1.3s;
+            border: 50px solid rgb(255, 1, 1);
+            border-width: 5px;
+        }
+        img:hover {
+            transform: scale(2.5); /*rotate(1440deg); scale3d(2, 5, 2);*/
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>INTRODUCTION TO WEB TECHNOLOGIES</h1>
+        <img src="https://honestproscons.com/wp-content/uploads/2021/03/web-technology.jpg" width="300" height="300" alt="Sample Image">
+        
+        <p class="paragraph">
+            Most of us use the Web and have done that for a fair amount of time yet we rarely put any thought into the back processes unless you are an aspiring geek purposefully digging deep into how it all works. There are various little bits integrated into the systems that make one’s experience seamless or faulty and among these are web technologies.
+            To start off with we need to talk about the World Wide Web or the Web which is an international information medium operating over the Internet which allows users to read and write through computers. The terms Internet and the Web are often in some circles mistakenly used interchangeably but are different as the Web is a service like an email that operates on the Internet.
+        </p>
+        
+        <p class="paragraph">
+            Computers have their own language or code which they communicate using. Web technology can be defined as markup languages and multimedia suites that are in this communication between computers. The scope of web technologies is quite broad and exciting if you are new to the term. If you have watched a video online or accessed your health records on a database or purchased a meal via an app, then you have used web technologies. The latter, which is a connection between advanced web applications and company-related tasks, is on the rise and speaks to the growth of web technologies.
+        </p>
+    </div>
+</body>
+</html>

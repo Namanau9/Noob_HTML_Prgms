@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lab 4</title>
+<style>
+    table {
+        width: auto;
+        border-collapse: collapse;
+        margin-left: auto;
+        margin-right:auto;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .break {
+        background-color: #d9edf7;
+    }
+    .lab{
+        background-color: #dff0d8;
+    }
+
+</style>
+</head>
+<body>
+
+
+<table>
+    <caption><h1>3 SEM -TIMETABLE</h1></caption>
+    <tr>
+        <th>DAY/TIME</th>
+        <th>8:30 - 9:30</th>
+        <th>9:30 - 10:30</th>
+        <th>10:30 - 11:00</th>
+        <th>11:00 - 12:00</th>
+        <th>12:00 - 1:00</th>
+        <th>1:00 - 2:00</th>
+        <th>2:00 - 3:00</th>
+        <th>3:00 - 4:00</th>
+    </tr>
+    <tr>
+        <th>DAY-1</th>
+        <td>CSE23302</td>
+        <td>CML23303</td>
+        <td rowspan="6" class="break">SHORT BREAK</td>
+        <td>CSE23304</td>
+        <td>MAT23301A</td>
+        <td rowspan="6" class="break">LUNCH BREAK</td>
+        <td colspan="2">LIBRARY</td>
+    </tr>
+    <tr>
+        <th>DAY-2</th>
+        <td colspan="2" class="lab">CML23303 LAB 1</td>
+        <td>CML23305</td>
+        <td>CML23307</td>
+        <td colspan="2">SCK23306</td>
+    </tr>
+    <tr>
+        <th>DAY-3</th>
+        <td>MAT23301A</td>
+        <td>CSE23302</td>
+        <td colspan="2" class="lab">CML23305 LAB 1</td>
+        <td colspan="2">NSS/PE/YOGA</td>
+    </tr>
+    <tr>
+        <th>DAY-4</th>
+        <td colspan="2" class="lab">CSEL23309 LAB 2</td>
+        <td>CSE23304</td>
+        <td>CML23307</td>
+        <td colspan="2">Skill Lab - LAB 2</td>
+    </tr>
+    <tr>
+        <th>DAY-5</th>
+        <td>CML23307</td>
+        <td>CSE23304</td>
+        <td>MAT23301A</td>
+        <td>CML23303</td>
+        <td colspan="2">Mentoring</td>
+    </tr>
+    <tr>
+        <th>DAY-6</th...>
+        <td>CML23303</td>
+        <td>CML23305</td>
+        <td>CSE23302</td>
+        <td>MAT23301A</td>
+        
+        <td colspan="2">Students Club Activity</td>
+    </tr>
+    
+</table>
+
+
+</body>
+</html>

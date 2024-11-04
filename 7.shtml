@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple calculator</title>
+     <style>
+        table,td,tr{Border:2px solid black;
+                    text-align: center;
+                    padding: 10px;
+                    margin: auto;}
+        table{ background-color: orange;}            
+        td{ background-color: rgb(203, 207, 207);}
+        #clear,#add,#sub,#mul,#div {
+            background-color:orange; 
+            color: white;         
+            padding: 10px;       
+            border: none;         
+            border-radius: 5px;   
+            cursor: pointer;  }
+        #value1,#value2,#answer{width: 100px; height: 30px;border-radius: 5px;padding: 5px;}    
+        #answer{padding-left: 50px;padding-right: 50px;}
+     </style>
+     <script type="text/javascript">
+        function calculate(clicked_id){
+            var val1 = parseFloat(document.getElementById("value1").value);
+            var val2= parseFloat(document.getElementById("value2").value);
+            if (isNaN(val1) | isNaN(val2) )
+               alert("Please enter a valid number");
+            else if (clicked_id=="add")
+            document.getElementById("answer").value=val1+val2;
+            else if (clicked_id=="sub")
+            document.getElementById("answer").value=val1-val2;
+            else if (clicked_id=="mul")
+            document.getElementById("answer").value=val1*val2;
+            else if (clicked_id=="div")
+            document.getElementById("answer").value=val1/val2;
+        }
+        function cls(){
+            value1.value="0"
+            value2.value="0"
+            answer.value=""
+        }
+     </script>
+</head>
+     <body>
+        <div>
+         <table>
+            <tr>
+                <th colspan="4">SIMPLE CALCULATOR
+            </th></tr>
+            <tr>
+                <td>Value 1:</td>
+                <td><input type="text" id="value1" value="0"></td>
+                <td>Value 2:</td>
+                <td><input type="text" id="value2" value="0" ></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="add" value="ADDITION" onclick="calculate(this.id)"></td>
+                <td><input type="button" id="sub" value="SUBTRACTION" onclick="calculate(this.id)"></td>
+                <td><input type="button" id="mul" value="MULTIPLY" onclick="calculate(this.id)"></td>
+                <td><input type="button" id="div" value="DIVIDE" onclick="calculate(this.id)"></td>
+            </tr>
+            <tr>
+                <td>ANSWER:</td>
+                <td colspan="2"><input type="text" id="answer" value=""></td>
+                <td><input type="button" id="clear" value="CLEAR" onclick="cls()"></td>
+            </tr>
+
+               
+         </table>
+        </div>
+     </body>
+</html>
