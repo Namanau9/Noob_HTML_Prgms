@@ -1,7 +1,8 @@
 # Noob_HTML_Prgms
 
 
-This repository contains a collection of seven HTML projects, each demonstrating different web technologies and design principles. Below are brief summaries of each project.
+This repository contains a collection of HTML projects, each demonstrating different web technologies and design principles. Below are brief summaries of each project.
+
 ## 1. TRAVVaaLOGS
 
 TRAVVaaLOGS is a simple HTML website designed to share travel experiences and inspire others to explore the world. The site features sections for sharing travel insights, showcasing a gallery of travel photos, and providing contact information. It is organized into easy-to-navigate sections, including a dedicated page for highlighting a travel blog on Mount Everest.
@@ -19,6 +20,8 @@ TRAVVaaLOGS is a simple HTML website designed to share travel experiences and in
 
 - **HTML5**: The structure and content of the website.
 - **CSS**: Inline styling for layout, colors, and visual formatting.
+### Preview
+![TRAVVaaLOGS-Brave2024-11-0422-10-22-ezgif com-optimize](https://github.com/user-attachments/assets/ce0d1bee-be04-4b7e-8601-8d8becae56c8)
 
 ---
 
@@ -34,6 +37,9 @@ The Speakers page provides information about various speakers at the TECHCON eve
 ### Technologies Used
 - HTML for structure
 - CSS for styling
+### Preview
+![image](https://github.com/user-attachments/assets/cf85f90c-713e-49e3-b461-12a96846ffd8)
+
 
 ---
 
@@ -50,6 +56,9 @@ This project serves as an introductory page for web technologies, explaining the
 - HTML for structure
 - CSS for styling and hover effects
 
+### Preview
+![CSSHOVER-Brave2024-11-0422-19-10-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/8ccdb9f4-63a5-404a-9d6a-7df78e9d824d)
+
 ---
 
 ## 4. Timetable
@@ -64,6 +73,9 @@ The Timetable project displays a weekly schedule for a semester. It features:
 ### Technologies Used
 - HTML for table structure
 - CSS for styling
+
+### Preview
+![image](https://github.com/user-attachments/assets/dc897073-67b2-4574-9203-dba44a82c587)
 
 ---
 
@@ -80,6 +92,9 @@ This project showcases a student registration form for a course or event. Key fe
 - HTML for form structure
 - CSS for styling
 
+### Preview
+![image](https://github.com/user-attachments/assets/5e4c992b-ef8c-4f54-b981-d44e2131b45f)
+
 ---
 
 ## 6. Galaxy Content Page
@@ -94,6 +109,9 @@ The Galaxy page provides information about the Moon and space-related facts. It 
 ### Technologies Used
 - HTML for structure
 - CSS for layout and styling
+
+### Preview
+![Lab6-Brave2024-11-0422-24-20-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/012d8dbd-420a-4dc3-8416-31fc19d73529)
 
 ---
 
@@ -111,4 +129,7 @@ The Simple Calculator project implements a basic calculator with the following f
 - HTML for structure
 - CSS for styling
 - JavaScript for functionality and calculations
+
+### Preview
+![image](https://github.com/user-attachments/assets/10da8724-b5f5-429e-b83e-11dff8858676)
 
