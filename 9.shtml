@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>colour Stacking</title>
+<style>
+h1 {text-align: center;}
+.red {
+position: absolute; left: 10%; top: 10%;
+z-index: 0;
+}
+.yellow {
+position: absolute;
+left: 30%; top: 30%;
+z-index: 1;
+}
+.green {
+position: absolute; left: 50%; top: 50%;
+z-index: 2;
+}
+</style>
+<script>
+var topIndex = 2;
+function moveToTop(picture) {
+picture.style.zIndex = ++topIndex;
+}
+</script>
+</head>
+<body>
+    <h1>Overlapping Images</h1>
+    <div id="image-container">
+    <img id="red" class="red" src="https://about.canva.com/wp-content/uploads/sites/8/2019/03/red.png" onmouseover="moveToTop(this)" width="400" height="300">
+    <img id="yellow" class="yellow" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSygCqRNB6CRf-aSPwoeDmhsuMf7RXIo4OLCA&s" onmouseover="moveToTop(this)" width="400" height="300">
+    <img id="green" class="green" src="https://cdn.sanity.io/images/599r6htc/regionalized/a26fe0cf37bcc164980bcf8014817652df9683a7-1440x810.png?w=1440&h=810&q=75&fit=max&auto=format" onmouseover="moveToTop(this)"
+    width="400" height="300">
+    </div>
+    </body>
+    </html>
