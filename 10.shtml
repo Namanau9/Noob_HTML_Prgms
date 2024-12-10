@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<style>
+    header{
+    margin-bottom: 40px;
+    background-color: whitesmoke;
+}
+.head{
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+</style>
+</head>
+<body>
+    <header class="text-center">
+        <h1 class="head">Naman A U</h1>
+     <p>Web Developer | Designer</p>
+     <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+     </ul>
+
+</header>
+<section id="About" class="text-center" style="margin-bottom: 40px;">
+    <h1>About</h1>
+    <p>Hi, I'm Naman A U. I'm a web developer and designer. I'm currently studying at Global Academy of Technology. I'm passionate about creating beautiful and functional websites. I'm always looking for new challenges and opportunities to learn and grow.</p>
+</section>
+<section id="skills" class="text-center bg-light p-3">
+    <h1>Skills</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-text">I have a strong understanding of HTML and can create well-structured and semantic HTML5 documents.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">CSS</h3>
+                    <p class="card-text">I have a good understanding of CSS and can create responsive and visually appealing designs.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">JavaScript</h3>
+                    <p class="card-text">I have a basic understanding of JavaScript and can use it to create interactive and dynamic web pages.</p>
+
+                </div>
+            </div>
+        </div>  
+    </div>
+
+</section>
+<section id="Projects" class="text-center bg-light p-3">
+    <h2>Projects</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    
+                    <h3 class="card-title"> Result Management System</h3>
+                    <div class="project-image">
+                        <img alt="Illustration of a result management system with a computer and data charts" height="200" src="https://storage.googleapis.com/a1aa/image/XrOzoIWSriIaIBxfjJ8Xz4jHL1a2stS7J13mhVtEv7O30O5JA.jpg" width="300"/>
+                        </div>
+                    <p class="card-text">The project’s primary goal is to get the student’s exam results quickly and understandably. Students or teachers can benefit from this project by receiving results in an easy-to-understand manner.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                   
+                    <h3 class="card-title">Student management system</h3>
+                    <div class="project-image">
+                        <img alt="Illustration of a vaccination management system with parents and children" height="200" src="https://storage.googleapis.com/a1aa/image/MnUN3IcxTNbaNdux1M3axbl7PFXqS69uY9vke7C9U3T20O5JA.jpg" width="300"/>
+                        </div>
+                    <p class="card-text">The project’s primary goal is to set the schedule of students to get the information of Classes and Upcoming Exams.</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
